@@ -1,0 +1,272 @@
+#Tienda_cartel {
+  position: absolute;
+  width: 100%;
+  height: 258px;
+  left: 0px;
+  top: 0px;
+
+  background: #a44141;
+  mix-blend-mode: normal;
+}
+
+#logo_imagen {
+  position: absolute;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+
+  background: url(/img/image.png) center center no-repeat;
+}
+#header {
+  position: absolute;
+  width: 100%;
+  height: 90px;
+  left: 0px;
+  top: 256px;
+
+  background: #938686;
+}
+#home {
+  position: absolute;
+  width: 63px;
+  height: 24px;
+  left: 82px;
+  top: 25px;
+
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  font-variation-settings: "slnt" 0;
+}
+#quienessomos {
+  position: absolute;
+  width: 180px;
+  height: 24px;
+  left: 200px;
+  top: 25px;
+
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  font-variation-settings: "slnt" 0;
+}
+#productos {
+  position: absolute;
+  width: 180px;
+  height: 24px;
+  left: 350px;
+  top: 25px;
+
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  font-variation-settings: "slnt" 0;
+}
+#login {
+  position: absolute;
+  width: 62px;
+  height: 24px;
+  left: 1550px;
+  top: 25px;
+
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+  font-variation-settings: "slnt" 0;
+}
+#presentacion_productos {
+  position: absolute;
+  width: 99.5%;
+  height: 556px;
+  left: 1px;
+  top: 365px;
+
+  background: #d9d9d9;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+#footer_index {
+  position: absolute;
+  width: 100%;
+  height: 224px;
+  left: 0px;
+  top: 945px;
+
+  background: #a44141;
+}
+#logo_footer {
+  position: absolute;
+  width: 343px;
+  height: 102px;
+  left: 52px;
+  top: 25px;
+  z-index: 1000;
+}
+#footer_text1 {
+  position: absolute;
+  width: 268px;
+  height: 11px;
+  left: 826px;
+  top: 130px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+#footer_text2 {
+  position: absolute;
+  width: 250px;
+  height: 120px;
+  left: 1400px;
+  top: 10px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+#footer_text3 {
+  position: absolute;
+  width: 250px;
+  height: 120px;
+  left: 1400px;
+  top: 35px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ffffff;
+}
+ul {
+  list-style-type: none;
+}
+.Presentacion1 {
+  position: absolute;
+  width: 299px;
+  height: 512px;
+  left: 250px;
+  top: 15px;
+  background: #A44141;
+  border-radius: 29px;
+  
+
+  transition: all 0.5s ease-in-out;
+}
+.Presentacion1:hover{
+  transform: scale(1.1);
+}
+.Presentacion2 {
+  position: absolute;
+  width: 299px;
+  height: 512px;
+  left: 750px;
+  top: 15px;
+  background: #A44141;
+  border-radius: 29px;
+  
+
+  transition: all 0.5s ease-in-out;
+}
+.Presentacion2:hover{
+  transform: scale(1.1);
+}
+.Presentacion3 {
+  position: absolute;
+  width: 299px;
+  height: 512px;
+  left: 1250px;
+  top: 15px;
+  background: #A44141;
+  border-radius: 29px;
+  
+
+  transition: all 0.5s ease-in-out;
+}
+.Presentacion3:hover{
+  transform: scale(1.1);
+}
+.Presentacion1 img{
+width: 100%;
+height: 300px;
+border-radius: 29px;
+}
+.Presentacion2 img{
+  width: 100%;
+  height: 300px;
+  border-radius: 29px;
+  }
+  .Presentacion3 img{
+    width: 100%;
+    height: 300px;
+    border-radius: 29px;
+    }
+.Presentacion1 h3{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+.Presentacion2 h3{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
+.Presentacion3 h3{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-decoration-line: underline;
+
+color: #FFFFFF;
+
+}
