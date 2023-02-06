@@ -82,3 +82,40 @@
   color: #ff0000;
   font-variation-settings: "slnt" 0;
 }
+@media only screen and (max-width: 720px) {
+  .product-list {
+    width: 100%;
+    height: auto;
+    left: 0;
+    top: 0;
+  }
+  .product-item img {
+    width: 80%;
+    height: auto;
+    left: 10%;
+    top: 10px;
+  }
+  .button_cart {
+    width: 80%;
+    height: 40px;
+    left: 10%;
+    top: auto;
+    bottom: 10px;
+  }
+  #nombre_producto {
+    width: 90%;
+    height: auto;
+    left: 5%;
+    top: auto;
+    bottom: 60px;
+    font-size: 12px;
+  }
+  #descripcion_producto {
+    width: 90%;
+    height: auto;
+    left: 5%;
+    top: auto;
+    bottom: 40px;
+    font-size: 14px;
+  }
+}
