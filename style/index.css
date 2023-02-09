@@ -1,393 +1,353 @@
+body {
+  top: 0;
+  left: 0;
+  margin: 0;
+}
 
-#Tienda_cartel {
+header {
   position: absolute;
   width: 100%;
-  height: 258px;
+  height: 163px;
+  left: 0px;
+  top: 0px;
+}
+.div-header {
+  position: absolute;
+  width: 100%;
+  height: 163px;
   left: 0px;
   top: 0px;
 
-  background: #a44141;
-  mix-blend-mode: normal;
+  background: #ffc700;
 }
+#logo {
+  box-sizing: border-box;
 
-#logo_imagen {
   position: absolute;
-  background-size: contain;
+  width: 436px;
+  height: 120px;
+  left: 49px;
+  top: 21px;
+
+  border: 3px solid #ffffff;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+/*Banner main*/
+#banner {
+  position: absolute;
+  width: 100%;
+  height: 955px;
+  left: 0px;
+  top: 0px;
+}
+.banner-img {
+  position: absolute;
+  width: 100%;
+  height: 954px;
+  left: 0px;
+  top: 163px;
+}
+.formas {
+  position: absolute;
   width: 100%;
   height: 100%;
-
-  background: url(/img/image.png) center center no-repeat;
+  left: 0px;
+  top: 163px;
+  overflow: hidden;
 }
-#header {
+.div-triangulos {
   position: absolute;
   width: 100%;
-  height: 90px;
+  height: 955px;
   left: 0px;
-  top: 256px;
+  top: 0px;
 
-  background: #938686;
+  background: #e96060;
+  opacity: 0.5;
 }
-#home {
+.div-rectangulos {
   position: absolute;
-  width: 63px;
-  height: 24px;
-  left: 82px;
-  top: 25px;
+  width:100%;
+  height: 150px;
+  left: 0px;
+  top: 0px;
+  background: rgba(245, 173, 34, 0.75);
+  transform: matrix(-4, 3, 2, 5, 33, 20);
+}
+.bolsa-header {
+  position: absolute;
+  width: 406.25px;
+  height: 397.34px;
+  left: 49.03px;
+  top: 667.88px;
+
+  filter: drop-shadow(10px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.text-banner {
+  position: absolute;
+  width: 1048.99px;
+  height: 246.97px;
+  left: 342px;
+  top: 394px;
 
   font-family: "Inter";
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 150px;
+  line-height: 182px;
   text-align: center;
   text-transform: capitalize;
 
   color: #ffffff;
-  font-variation-settings: "slnt" 0;
+
+  text-shadow: 18px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#quienessomos {
+.text-mensaje {
   position: absolute;
-  width: 180px;
-  height: 24px;
-  left: 200px;
-  top: 25px;
+  width: 966px;
+  height: 100px;
+  left: 604px;
+  top: 712px;
 
   font-family: "Inter";
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
   text-align: center;
   text-transform: capitalize;
 
   color: #ffffff;
-  font-variation-settings: "slnt" 0;
+
+  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#productos {
-  position: absolute;
-  width: 180px;
-  height: 24px;
-  left: 350px;
-  top: 25px;
-
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-  font-variation-settings: "slnt" 0;
-}
-#login {
-  position: absolute;
-  width: 62px;
-  height: 24px;
-  left: 1550px;
-  top: 25px;
-
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-  font-variation-settings: "slnt" 0;
-}
-#presentacion_productos {
+#quienes-somos {
   position: absolute;
   width: 100%;
-  height: 690px;
+  height: 650px;
+  left: 0x;
+  top: 1130px;
+
+  background: #151515;
+}
+.img-quienes-somos {
+  position: absolute;
+  width: 1011.65px;
+  height: 650px;
+  left: 4px;
+  top: 0px;
+}
+.quienes-somos-text-h1 {
+  position: absolute;
+  width: 351px;
+  height: 39px;
+  left: 1320px;
+  top: 24px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.quienes-somos-text-h3 {
+  position: absolute;
+  width: 643.51px;
+  height: 370px;
+  left: 1150px;
+  top: 70px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+#catalogo-productos {
+  position: absolute;
+  width: 100%;
+  height: 1735px;
   left: 0px;
-  top: 370px;
+  top: 1850px;
+}
+.catalogo {
+  position: absolute;
+  width: 100%;
+  height: 1735px;
+  left: 0px;
+  top: 0px;
+
+  background: #ffc700;
+}
+.catalogo-h1 {
+  position: absolute;
+  width: 736px;
+  height: 77px;
+  left: 600px;
+  top: 50px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 77px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+
+  color: #ffffff;
+
+  text-shadow: 20px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#catalogo-producto1 {
+  position: absolute;
+  width: 436.24px;
+  height: 673.2px;
+  left: 120px;
+  top: 200px;
+}
+.producto1 {
+  position: absolute;
+  width: 436.24px;
+  height: 673.2px;
+  left: 0px;
+  top: 0px;
 
   background: #d9d9d9;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
 }
-#footer_index {
+.img-producto {
   position: absolute;
-  width: 100%;
-  height: 224px;
+  width: 436.24px;
+  height: 673.2px;
   left: 0px;
-  top: 1000px;
-
-  background: #a44141;
+  top: 0px;
 }
-#logo_footer {
+.producto2 {
   position: absolute;
-  width: 343px;
-  height: 102px;
-  left: 52px;
-  top: 25px;
-  z-index: 1000;
+  width: 436.24px;
+  height: 673.2px;
+  left: 500px;
+  top: 0px;
+
+  background: #d9d9d9;
+  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
 }
-#footer_text1 {
+.producto3 {
   position: absolute;
-  width: 268px;
-  height: 11px;
-  left: 826px;
-  top: 130px;
+  width: 436.24px;
+  height: 673.2px;
+  left: 1000px;
+  top: 0px;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #ffffff;
+  background: #d9d9d9;
+  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
 }
-#footer_text2 {
+.producto4 {
   position: absolute;
-  width: 250px;
-  height: 120px;
-  left: 1400px;
-  top: 10px;
+  width: 436.24px;
+  height: 673.2px;
+  left: 0px;
+  top: 700px;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #ffffff;
+  background: #d9d9d9;
+  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
 }
-#footer_text3 {
+.producto5 {
   position: absolute;
-  width: 250px;
-  height: 120px;
-  left: 1400px;
-  top: 35px;
+  width: 436.24px;
+  height: 673.2px;
+  left: 500px;
+  top: 700px;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-
-  color: #ffffff;
+  background: #d9d9d9;
+  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
 }
-ul {
-  list-style-type: none;
-}
-.Presentacion1 {
+.producto6 {
   position: absolute;
-  width: 299px;
-  height: 512px;
-  left: 250px;
-  top: 45px;
-  background: #A44141;
-  border-radius: 29px;
-  
+  width: 436.24px;
+  height: 673.2px;
+  left: 1000px;
+  top: 700px;
 
-  transition: all 0.5s ease-in-out;
-}
-.Presentacion1:hover{
-  transform: scale(1.1);
-}
-.Presentacion2 {
-  position: absolute;
-  width: 299px;
-  height: 512px;
-  left: 750px;
-  top: 45px;
-  background: #A44141;
-  border-radius: 29px;
-  
-
-  transition: all 0.5s ease-in-out;
-}
-.Presentacion2:hover{
-  transform: scale(1.1);
-}
-.Presentacion3 {
-  position: absolute;
-  width: 299px;
-  height: 512px;
-  left: 1250px;
-  top: 45px;
-  background: #A44141;
-  border-radius: 29px;
-  
-
-  transition: all 0.5s ease-in-out;
-}
-.Presentacion3:hover{
-  transform: scale(1.1);
-}
-.Presentacion1 img{
-width: 100%;
-height: 300px;
-border-radius: 29px;
-}
-.Presentacion2 img{
-  width: 100%;
-  height: 300px;
-  border-radius: 29px;
-  }
-  .Presentacion3 img{
-    width: 100%;
-    height: 300px;
-    border-radius: 29px;
-    }
-.Presentacion1 h3{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-text-decoration-line: underline;
-
-color: #FFFFFF;
-
-}
-.Presentacion2 h3{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-text-decoration-line: underline;
-
-color: #FFFFFF;
-
-}
-.Presentacion3 h3{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 24px;
-text-align: center;
-text-decoration-line: underline;
-
-color: #FFFFFF;
-
-}
-main {
-  margin-bottom: 1150px;
+  background: #d9d9d9;
+  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
 }
 footer {
-  clear: both;
+  position: absolute;
+  width: 100%;
+  height: 351px;
+  left: 0px;
+  top: 3780px;
 }
-@media only screen and (max-width: 600px) {
-  #footer_index {
-    position: fixed;
-    width: 100%;
-    height: 224px;
-    left: 0px;
-    bottom: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  #logo_footer {
-    width: 50%;
-    margin-bottom: 20px;
-  }
-  #footer_text1,
-  #footer_text2,
-  #footer_text3 {
-    margin-bottom: 10px;
-  }
-}
-@media only screen and (max-width: 600px) {
-  #main {
-    margin-bottom: 224px;
-  }
-  
-  #footer_index {
-    position: fixed;
-    width: 100%;
-    height: 224px;
-    left: 0;
-    bottom: 0;
-    background: #a44141;
-  }
-  #presentacion_productos {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-  }
-  .Presentacion1,
-  .Presentacion2,
-  .Presentacion3 {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-  .Presentacion1 img,
-  .Presentacion2 img,
-  .Presentacion3 img {
-    width: 100%;
-  }
-}
-@media only screen and (max-width: 800px) {
-  #main {
-    margin-bottom: 224px;
-  }
-  
-  #footer_index {
-    position: fixed;
-    width: 100%;
-    height: 224px;
-    left: 0;
-    bottom: 0;
-    background: #a44141;
-  }
-  .Presentacion1 {
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 0;
-  }
-  .Presentacion2 {
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 0;
-  }
-  .Presentacion3 {
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 0;
-  }
-}
-@media (max-width: 800px) {
-  .Presentacion1,
-  .Presentacion2,
-  .Presentacion3 {
-    position: relative;
-    width: 100%;
-    height: auto;
-    left: 0;
-    top: 0;
-  }
-  .Presentacion1 {
-    margin-bottom: 20px;
-  }
-}
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
+.footer-div {
+  position: absolute;
+  width: 100%;
+  height: 351px;
+  left: 0px;
+  top: 3780px;
 
-@media screen and (max-width: 800px) {
-  header {
-    flex-direction: column;
-    align-items: center;
-  }
+  background: #ffc700;
+}
+.img-footer {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 608px;
+  height: 173px;
+  left: 43px;
+  top: 50px;
+
+  mix-blend-mode: normal;
+  border: 3px solid #ffffff;
+  filter: drop-shadow(5px 4px 8px rgba(0, 0, 0, 0.25));
+}
+.text-footer {
+  position: absolute;
+  width: 348px;
+  height: 29px;
+  left: 651px;
+  top: 265px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.text-terminos {
+  position: absolute;
+  width: 310px;
+  height: 29px;
+  left: 1371px;
+  top: 0px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+
+  color: #ffffff;
 }
