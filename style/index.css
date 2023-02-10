@@ -1,200 +1,168 @@
-body {
-  top: 0;
-  left: 0;
+html body {
+  font-family: Arial, sans-serif;
   margin: 0;
+  padding: 0;
 }
 
 header {
-  position: absolute;
-  width: 100%;
-  height: 163px;
-  left: 0px;
-  top: 0px;
+  justify-content: space-between;
+  background-color: #ffc700;
+  height: auto;
+  padding: 20px;
+  display: flex;
 }
-.div-header {
-  position: absolute;
-  width: 100%;
-  height: 163px;
-  left: 0px;
-  top: 0px;
 
-  background: #ffc700;
-}
 #logo {
+  height: 100%;
+  width: 430px;
+}
+.img-logo {
+  display: block;
   box-sizing: border-box;
-
-  position: absolute;
-  width: 436px;
-  height: 120px;
-  left: 49px;
-  top: 21px;
-
+  width: 100%;
+  height: auto;
   border: 3px solid #ffffff;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-/*Banner main*/
-#banner {
-  position: absolute;
-  width: 100%;
-  height: 955px;
-  left: 0px;
-  top: 0px;
+.text-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-.banner-img {
-  position: absolute;
+
+.text-navbar li {
+  display: inline-block;
+}
+
+.text-navbar a {
+  text-decoration: none;
+  display: block;
+  font-size: 24px;
+  padding: 10px;
+  color: #000;
+}
+.text-navbar a:hover {
+  background-color: #f3ba0f;
+  border: 1px solid #000;
+}
+.banner {
+  position: relative;
+  height: 100%; /* o el alto que desees */
+}
+
+.img-banner {
   width: 100%;
-  height: 954px;
-  left: 0px;
-  top: 163px;
+  height: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Inter";
+  font-size: 10vw;
+  width: auto;
+}
+.banner-text-h3 {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Inter";
+  font-size: 3vw;
+  width: auto;
 }
 .formas {
   position: absolute;
   width: 100%;
   height: 100%;
   left: 0px;
-  top: 163px;
+  top: 0px;
   overflow: hidden;
 }
-.div-triangulos {
-  position: absolute;
-  width: 100%;
-  height: 955px;
-  left: 0px;
-  top: 0px;
 
+.div-triangulos {
+  position: relative;
+  width: 100%;
+  height: 100%; /* altura fija */
   background: #e96060;
-  opacity: 0.5;
+  opacity: 0.3;
 }
+
 .div-rectangulos {
-  position: absolute;
+  position: relative;
   width:100%;
-  height: 150px;
-  left: 0px;
-  top: 0px;
+  height: 40px; /* altura fija */
   background: rgba(245, 173, 34, 0.75);
   transform: matrix(-4, 3, 2, 5, 33, 20);
 }
-.bolsa-header {
-  position: absolute;
-  width: 406.25px;
-  height: 397.34px;
-  left: 49.03px;
-  top: 667.88px;
 
-  filter: drop-shadow(10px 4px 4px rgba(0, 0, 0, 0.25));
-}
-.text-banner {
-  position: absolute;
-  width: 1048.99px;
-  height: 246.97px;
-  left: 342px;
-  top: 394px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 150px;
-  line-height: 182px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-
-  text-shadow: 18px 4px 4px rgba(0, 0, 0, 0.25);
-}
-.text-mensaje {
-  position: absolute;
-  width: 966px;
-  height: 100px;
-  left: 604px;
-  top: 712px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-
-  text-shadow: 6px 4px 4px rgba(0, 0, 0, 0.25);
-}
-#quienes-somos {
-  position: absolute;
+.quienes-somos {
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
-  height: 650px;
-  left: 0x;
-  top: 1130px;
-
+  height: 100%;
   background: #151515;
 }
+
 .img-quienes-somos {
-  position: absolute;
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
   width: 1011.65px;
-  height: 650px;
-  left: 4px;
-  top: 0px;
+  height: 100%;
+  object-fit: contain;
 }
-.quienes-somos-text-h1 {
-  position: absolute;
-  width: 351px;
-  height: 39px;
-  left: 1320px;
-  top: 24px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
-  /* identical to box height */
-
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-}
-.quienes-somos-text-h3 {
-  position: absolute;
-  width: 643.51px;
-  height: 370px;
-  left: 1150px;
-  top: 70px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 32px;
-  line-height: 39px;
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-}
-#catalogo-productos {
-  position: absolute;
+.img-quienes-somos-container {
+  float: left;
   width: 100%;
-  height: 1735px;
-  left: 0px;
-  top: 1850px;
+}
+
+.img-quienes-somos {
+  width: 100%;
+}
+
+.quienes-somos-text {
+  float: left;
+  width: 80%;
+  padding: 20px;
+}
+
+.quienes-somos-text h1,
+.quienes-somos-text h3 {
+  color: white;
+  display: block;
+  margin: 20;
+}
+
+.catalogo-productos {
+  margin-top: 25px;
+  width: 100%;
+  height: 100%;
+  background: #ffc700;
+  overflow: hidden;
+  align-items: center;
+  text-align: center;
+}
+.catalogo-producto {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin: 0px 0 0 0px;
 }
 .catalogo {
-  position: absolute;
   width: 100%;
-  height: 1735px;
-  left: 0px;
-  top: 0px;
-
-  background: #ffc700;
+  height: 100%;
 }
 .catalogo-h1 {
-  position: absolute;
-  width: 736px;
-  height: 77px;
-  left: 600px;
-  top: 50px;
+  width: 100%;
+  height: 100%;
+  margin: 50px auto;
 
   font-family: "Inter";
   font-style: normal;
@@ -209,145 +177,131 @@ header {
 
   text-shadow: 20px 4px 4px rgba(0, 0, 0, 0.25);
 }
-#catalogo-producto1 {
-  position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 120px;
-  top: 200px;
-}
-.producto1 {
-  position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 0px;
-  top: 0px;
 
+.producto {
+  position: relative;
+  width: 436.24px;
+  height: 673.2px;
+  margin: 25px 25px 25px 60px;
   background: #d9d9d9;
   box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  text-align: center;
+  transition: transform 0.2s;
+}
+.producto:hover {
+  transform: scale(1.05);
 }
 .img-producto {
-  position: absolute;
   width: 436.24px;
   height: 673.2px;
-  left: 0px;
-  top: 0px;
 }
-.producto2 {
+.descripcion-producto {
   position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 500px;
-  top: 0px;
-
-  background: #d9d9d9;
-  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 29px;
+  color: #fffcfc;
+  text-shadow: 20px 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
 }
-.producto3 {
-  position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 1000px;
-  top: 0px;
-
-  background: #d9d9d9;
-  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
-}
-.producto4 {
-  position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 0px;
-  top: 700px;
-
-  background: #d9d9d9;
-  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
-}
-.producto5 {
-  position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 500px;
-  top: 700px;
-
-  background: #d9d9d9;
-  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
-}
-.producto6 {
-  position: absolute;
-  width: 436.24px;
-  height: 673.2px;
-  left: 1000px;
-  top: 700px;
-
-  background: #d9d9d9;
-  box-shadow: 14px 4px 11px 5px rgba(0, 0, 0, 0.25);
+.producto:hover .descripcion-producto {
+  display: block;
 }
 footer {
-  position: absolute;
-  width: 100%;
-  height: 351px;
-  left: 0px;
-  top: 3780px;
+  padding-top: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.footer-div {
-  position: absolute;
-  width: 100%;
-  height: 351px;
-  left: 0px;
-  top: 3780px;
 
+.footer-div {
+  width: 100%;
+  height: 351px;
   background: #ffc700;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
 .img-footer {
   box-sizing: border-box;
-
-  position: absolute;
-  width: 608px;
-  height: 173px;
-  left: 43px;
-  top: 50px;
-
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   mix-blend-mode: normal;
   border: 3px solid #ffffff;
   filter: drop-shadow(5px 4px 8px rgba(0, 0, 0, 0.25));
+  margin-top: auto;
 }
-.text-footer {
-  position: absolute;
-  width: 348px;
-  height: 29px;
-  left: 651px;
-  top: 265px;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-
-  text-align: center;
-  text-transform: capitalize;
-
-  color: #ffffff;
-}
 .text-terminos {
-  position: absolute;
-  width: 310px;
-  height: 29px;
-  left: 1371px;
-  top: 0px;
-
+  width: auto;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-
-  text-align: center;
+  line-height: auto;
+  text-align: right;
   text-decoration-line: underline;
   text-transform: capitalize;
-
   color: #ffffff;
+  padding-top: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-footer {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: auto;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .text-terminos {
+    font-size: 16px;
+  }
+
+  .text-footer {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .producto {
+    width: 300px;
+    height: 450px;
+    margin: 25px auto;
+  }
+  .img-producto {
+    width: 300px;
+    height: 450px;
+  }
+  .descripcion-producto {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .img-footer {
+    max-width: 100%;
+    height: auto;
+    margin-right: 0;
+  }
+
+  .text-terminos {
+    font-size: 20px;
+  }
+
+  .text-footer {
+    font-size: 20px;
+  }
 }
