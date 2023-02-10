@@ -1,0 +1,80 @@
+main {
+  padding-top: 10px;
+}
+.contianer-productos {
+  
+  background-color: rgb(246, 178, 31);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.productos {
+  width: 20%;
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+
+.producto-img {
+  width: 100%;
+}
+
+.button-agregar {
+  background-color: rgb(250, 250, 250);
+  padding: 10px 40px;
+  border: 2px solid rgb(250, 0, 0);
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+.button-agregar:hover {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+}
+.button-agregar a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  transition: all 0.5s ease;
+}
+.button-agregar a:hover {
+  color: rgb(255, 255, 255);
+}
+
+.precio{
+  color: red;
+  font-family: "Inter";
+  font-size: 1vw;
+  font-weight: bold;
+}
+.descripcion-producto-reference{
+  color: rgb(2, 1, 1);
+  font-family: "Inter";
+  font-size: 1.3vw;
+  font-weight: bold;
+  
+  
+}
+.productos:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 3px 10px rgb(0, 0, 0, 0.2);
+}
+@media (max-width: 767px) {
+  .productos {
+    width: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+  .productos {
+    width: 100%;
+  }
+}
