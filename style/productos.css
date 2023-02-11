@@ -6,6 +6,8 @@ main {
   display: flex;
   height: 50%;
   padding: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .busqueda-container form {
   position: relative;
@@ -128,6 +130,9 @@ main {
   .descripcion-producto-reference{
     font-size: 5vw;
 
+  }
+  .button-agregar{
+    font-size: 4vw;
   }
 }
 

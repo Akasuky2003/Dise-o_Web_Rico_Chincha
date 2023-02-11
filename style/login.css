@@ -94,18 +94,6 @@ input[type="password"],
   margin-bottom: 20px;
   box-sizing: border-box;
 }
-.text-login {
-  display: block;
-  margin-top: 10px;
-  text-decoration: none;
-  color: blue;
-  transition: all 0.3s ease-in-out;
-}
-.text-login:hover {
-  color: rgb(0, 0, 0);
-  border-radius: 5px;
-  padding: 5px;
-}
 @media (max-width: 767px) {
   .login-container {
     width: 90%;
