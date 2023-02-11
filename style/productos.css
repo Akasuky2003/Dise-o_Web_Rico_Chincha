@@ -1,16 +1,53 @@
 main {
   padding-top: 10px;
 }
-.contianer-productos {
-  
-  background-color: rgb(246, 178, 31);
+.container-main-productos{
+  background-color: rgb(211, 211, 211);
   display: flex;
+  height: 50%;
+  padding: 20px;
+}
+.busqueda-container form {
+  position: relative;
+  display: flex;
+  width: 50%;
+  
+}
+.busqueda-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 143, 10);
+  margin-bottom: 50px;
+  height: 50%;
+  padding: 10px;
+}
+
+.busqueda-input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.busqueda-input:focus {
+  outline: none;
+  box-shadow: 0 0 10px blue;
+}
+
+
+.contianer-productos {
   flex-wrap: wrap;
   justify-content: center;
 }
 
 .productos {
-  width: 20%;
+  width: 10%;
   text-align: center;
   padding: 20px;
   background-color: rgb(255, 255, 255);
@@ -27,13 +64,15 @@ main {
   background-color: rgb(250, 250, 250);
   padding: 10px 40px;
   border: 2px solid rgb(250, 0, 0);
-  color: black;
+  color: rgb(240, 14, 14);
   text-align: center;
   text-decoration: none;
   display: inline-block;
   margin: 20px auto;
   border-radius: 20px;
   transition: all 0.5s ease;
+  font-size: 1vw;
+  font-weight: bold;
 }
 .button-agregar:hover {
   background-color: rgb(255, 0, 0);
@@ -59,22 +98,37 @@ main {
   color: rgb(2, 1, 1);
   font-family: "Inter";
   font-size: 1.3vw;
-  font-weight: bold;
-  
-  
+  font-weight: bold; 
 }
 .productos:hover {
   transform: scale(1.1);
   box-shadow: 2px 3px 10px rgb(0, 0, 0, 0.2);
 }
 @media (max-width: 767px) {
+  .container-main-productos {
+    display: block;
+    height: 50%;
+    padding: 20px;
+    
+  }
   .productos {
     width: 50%;
+    text-align: center;
+    padding: 60px;
+    margin: 20px;
+  }
+  .producto-img {
+    width: 80%;
+    height: auto;
+  }
+  .precio{
+    font-size: 3vw;
+
+  }
+  .descripcion-producto-reference{
+    font-size: 5vw;
+
   }
 }
 
-@media (max-width: 479px) {
-  .productos {
-    width: 100%;
-  }
-}
+
